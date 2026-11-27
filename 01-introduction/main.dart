@@ -1,4 +1,10 @@
+void cetakSalam() {
+print('2. Fungsi cetakSalam dijalankan.');
+}
 void main() {
-  print('Hello, Dart!');
-  print('Welcome to Dart Fundamental Learning');
+print('Halo, selamat belajar bahasa Dart!');
+
+print('1. Program dimulai dari main().');
+cetakSalam();
+print('3. Program selesai.');
 }
