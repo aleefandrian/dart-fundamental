@@ -18,17 +18,10 @@ void main() {
   if (isLogin) {
     if (role == 'admin') {
       print('Dashboard Administrator dibuka.');
+    } else if (isLogin == false) {
+      print('Akses ditolak. Silakan login terlebih dahulu.');
     } else {
-      print('Dashboard Pengguna dibuka.');
+      print('Dashboard Mahasiswa dibuka.');
     }
   }
-
-  // 3. Diskon Belanja dengan Ternary Operator
-  int belanja = 250000;
-
-  String infoPromo = (belanja >= 200000)
-      ? 'Dapat Diskon 10%'
-      : 'Belum Dapat Diskon';
-
-  print('Promo: $infoPromo');
 }
